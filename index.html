@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Tamanna - Professional Digital Marketer and Local SEO Expert.">
+<meta name="theme-color" content="#f8f7f4">
+<title>Tamanna | Digital Marketer & Local SEO Expert</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f8f7f4;--paper:#fff;--ink:#202321;--muted:#6e756f;--accent:#7d8f80;--accent-dark:#52685a;--line:#e7e8e2;--soft:#edf0eb;--shadow:0 18px 55px rgba(38,48,40,.08)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:"DM Sans",sans-serif;line-height:1.7}a{color:inherit;text-decoration:none}.container{width:min(1120px,calc(100% - 48px));margin:auto}
+header{position:sticky;top:0;background:rgba(248,247,244,.9);backdrop-filter:blur(14px);z-index:20;border-bottom:1px solid rgba(231,232,226,.8)}.nav{height:78px;display:flex;align-items:center;justify-content:space-between}.logo{font-weight:700;letter-spacing:2px;font-size:17px}.logo span{color:var(--accent-dark)}.links{display:flex;gap:31px;font-size:13px;color:#555e57}.links a:hover{color:var(--accent-dark)}.nav-cta{padding:10px 18px;border:1px solid #cbd4ca;border-radius:5px;font-size:13px;font-weight:600}.nav-cta:hover{background:var(--accent-dark);color:white;border-color:var(--accent-dark)}.menu{display:none;border:0;background:none;font-size:24px}
+.hero{display:grid;grid-template-columns:1.08fr .92fr;align-items:center;gap:75px;padding:82px 0 95px;min-height:650px}.eyebrow{font-size:11px;letter-spacing:2.4px;text-transform:uppercase;color:var(--accent-dark);font-weight:700}.hero h1{font:600 clamp(43px,5.5vw,69px)/1.12 "Playfair Display",serif;letter-spacing:-1.7px;margin:19px 0 20px}.hero h1 em{font-style:normal;color:var(--accent-dark)}.hero p{max-width:550px;color:var(--muted);font-size:16px}.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:29px}.btn{display:inline-flex;align-items:center;justify-content:center;padding:13px 21px;border-radius:5px;font-size:13px;font-weight:700;transition:.2s}.btn:hover{transform:translateY(-2px)}.primary{background:var(--accent-dark);color:white}.secondary{border:1px solid #cbd4ca;color:var(--ink)}.hero-meta{display:flex;gap:24px;flex-wrap:wrap;margin-top:37px;color:#68716a;font-size:12px}.hero-meta span:before{content:"✦";color:var(--accent-dark);margin-right:8px}
+.photo-wrap{position:relative;max-width:410px;margin-left:auto}.photo-bg{position:absolute;inset:24px -22px -22px 22px;background:#e7ebe5;border-radius:4px}.photo{position:relative;width:100%;height:500px;object-fit:cover;object-position:center 25%;display:block;border-radius:4px;box-shadow:var(--shadow)}.photo-label{position:absolute;bottom:22px;left:-30px;background:white;padding:13px 19px;box-shadow:var(--shadow);font-size:12px;letter-spacing:.4px}.photo-label strong{display:block;font-size:14px}
+section{padding:86px 0}.section-label{font-size:11px;letter-spacing:2.2px;text-transform:uppercase;color:var(--accent-dark);font-weight:700}.section-title{font:600 clamp(32px,4vw,46px)/1.2 "Playfair Display",serif;margin:10px 0 15px;letter-spacing:-.7px}.section-intro{max-width:620px;color:var(--muted);margin:0}.about{background:var(--paper)}.about-grid{display:grid;grid-template-columns:.75fr 1.25fr;gap:75px;align-items:start}.about-aside{background:var(--soft);padding:29px;border-radius:4px}.about-aside .number{font:600 50px "Playfair Display";color:var(--accent-dark)}.about-aside h3{font:600 22px "Playfair Display";margin:4px 0 8px}.about-aside p{font-size:13px;color:var(--muted);margin:0}.about-copy p{color:var(--muted);margin:0 0 15px}.chips{display:flex;flex-wrap:wrap;gap:9px;margin-top:23px}.chip{background:#f1f3ef;border:1px solid #e4e9e2;padding:7px 12px;border-radius:3px;font-size:11px;color:#4e5d51}
+.services{background:var(--bg)}.heading-row{display:flex;justify-content:space-between;gap:30px;align-items:end;margin-bottom:34px}.service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.service{background:white;border:1px solid var(--line);padding:26px 24px;min-height:218px;transition:.22s}.service:hover{transform:translateY(-4px);box-shadow:var(--shadow);border-color:#cbd6cb}.service-icon{width:42px;height:42px;display:grid;place-items:center;background:var(--soft);color:var(--accent-dark);font-size:19px;border-radius:50%}.service h3{font:600 20px "Playfair Display";margin:18px 0 8px}.service p{font-size:13px;color:var(--muted);margin:0}
+.portfolio{background:var(--paper)}.project-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:17px;margin-top:34px}.project{min-height:205px;background:linear-gradient(135deg,#e9eee8,#d9e1d8);padding:25px;display:flex;flex-direction:column;justify-content:space-between;border:1px solid #e2e8e0}.project:nth-child(2){background:linear-gradient(135deg,#eeeae3,#e4ddd1)}.project:nth-child(3){background:linear-gradient(135deg,#e8e9ed,#d9dce4)}.project small{font-size:10px;letter-spacing:1.6px;text-transform:uppercase;color:#637367}.project h3{font:600 23px "Playfair Display";max-width:220px;margin:0}.project p{font-size:12px;color:#67716a;margin:0}.project-note{font-size:12px;color:var(--muted);margin-top:16px}
+.process-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-top:35px}.step{border-top:1px solid #d8ded7;padding-top:19px}.step b{font-size:11px;letter-spacing:1.5px;color:var(--accent-dark)}.step h3{font:600 22px "Playfair Display";margin:9px 0 6px}.step p{font-size:13px;color:var(--muted);margin:0}
+.contact{background:#eef1ec}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:65px}.contact-copy p{color:var(--muted)}.contact-details{margin-top:25px;display:grid;gap:10px}.detail{padding:13px 15px;background:#fff;border:1px solid #e3e8e1;font-size:13px}.detail small{display:block;color:var(--muted);font-size:10px;letter-spacing:1.2px;text-transform:uppercase}.form{display:grid;gap:11px}.form input,.form textarea{width:100%;border:1px solid #dce2da;background:white;padding:14px 15px;border-radius:3px;font:13px "DM Sans";color:var(--ink);outline:none}.form input:focus,.form textarea:focus{border-color:var(--accent-dark)}.form textarea{min-height:125px;resize:vertical}.form button{border:0;cursor:pointer;justify-self:start}.form-note{font-size:11px;color:var(--muted)}
+footer{padding:23px 0;border-top:1px solid var(--line);font-size:11px;color:var(--muted)}.footer-inner{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+@media(max-width:850px){.links{display:none;position:absolute;top:77px;left:24px;right:24px;padding:18px;background:white;border:1px solid var(--line);box-shadow:var(--shadow);flex-direction:column;gap:14px}.links.open{display:flex}.menu{display:block}.nav-cta{display:none}.hero{grid-template-columns:1fr;gap:48px;padding:65px 0}.photo-wrap{margin:0 auto;width:min(100%,390px)}.photo{height:460px}.about-grid,.contact-grid{grid-template-columns:1fr;gap:28px}.heading-row{display:block}.service-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){.container{width:calc(100% - 34px)}.nav{height:70px}.hero{padding:52px 0}.hero h1{font-size:45px}.hero p{font-size:14px}.photo{height:410px}.photo-label{left:-8px}.service-grid,.project-grid,.process-grid{grid-template-columns:1fr}.project{min-height:180px}section{padding:62px 0}.hero-meta{gap:12px}}
+</style>
+</head>
+<body>
+<header><div class="container nav">
+<a class="logo" href="#home">TAMANNA<span>.</span></a>
+<nav class="links" id="links"><a href="#home">Home</a><a href="#about">About</a><a href="#services">Services</a><a href="#portfolio">Portfolio</a><a href="#contact">Contact</a></nav>
+<a class="nav-cta" href="#contact">Let's Connect ↗</a><button class="menu" aria-label="Open navigation" onclick="document.getElementById('links').classList.toggle('open')">☰</button>
+</div></header>
+<main>
+<section class="container hero" id="home">
+<div><div class="eyebrow">Digital Marketing · Local SEO</div>
+<h1>Thoughtful strategy.<br><em>Meaningful growth.</em></h1>
+<p>Hello, I'm <strong>Tamanna</strong>, a professional digital marketer and Local SEO expert. I help businesses build a stronger online presence, reach nearby customers and turn search visibility into meaningful opportunities.</p>
+<div class="buttons"><a class="btn primary" href="#contact">Work With Me&nbsp; ↗</a><a class="btn secondary" href="#services">Explore Services</a></div>
+<div class="hero-meta"><span>Local SEO</span><span>Digital Marketing</span><span>Online Growth</span></div></div>
+<div class="photo-wrap"><div class="photo-bg"></div><img class="photo" src="assets/tamanna-profile.jpg" alt="Portrait of Tamanna"><div class="photo-label"><strong>Tamanna</strong>Digital Marketer & Local SEO Expert</div></div>
+</section>
+<section class="about" id="about"><div class="container about-grid">
+<aside class="about-aside"><div class="number">01</div><h3>Helping your business get noticed.</h3><p>Clear strategy and consistent digital work can make it easier for the right customers to find you.</p></aside>
+<div><div class="section-label">About me</div><h2 class="section-title">A little about Tamanna</h2><div class="about-copy"><p>I’m a professional digital marketer with a focus on Local SEO. I enjoy helping businesses communicate what makes them valuable and become more visible to the audiences they want to reach.</p><p>My approach starts with understanding your goals, your customers and your current online presence. From there, I work on practical strategies that support discoverability, trust and sustainable growth.</p></div><div class="chips"><span class="chip">Local SEO</span><span class="chip">Google Business Profile</span><span class="chip">SEO Strategy</span><span class="chip">Social Media Marketing</span><span class="chip">Content Planning</span></div></div>
+</div></section>
+<section class="services" id="services"><div class="container">
+<div class="heading-row"><div><div class="section-label">What I do</div><h2 class="section-title">Services & expertise</h2></div><p class="section-intro">Practical digital marketing services designed to improve your visibility and connect your business with the right audience.</p></div>
+<div class="service-grid">
+<article class="service"><div class="service-icon">⌖</div><h3>Local SEO</h3><p>Build local search visibility and help nearby customers discover your business when they need your services.</p></article>
+<article class="service"><div class="service-icon">◎</div><h3>Google Business Profile</h3><p>Improve the accuracy, usefulness and presentation of your business profile in local search.</p></article>
+<article class="service"><div class="service-icon">↗</div><h3>SEO Strategy</h3><p>Research search intent and create a focused plan to improve organic discovery over time.</p></article>
+<article class="service"><div class="service-icon">✳</div><h3>Social Media Marketing</h3><p>Plan consistent, audience-focused social content that supports brand awareness and engagement.</p></article>
+<article class="service"><div class="service-icon">▤</div><h3>Content Planning</h3><p>Organize helpful content around customer questions, services and the topics your audience cares about.</p></article>
+<article class="service"><div class="service-icon">＋</div><h3>Digital Marketing</h3><p>Connect the right digital channels with a clear plan that supports your business objectives.</p></article>
+</div></div></section>
+<section class="portfolio" id="portfolio"><div class="container">
+<div class="section-label">Selected work</div><h2 class="section-title">My work in focus</h2><p class="section-intro">A space to showcase your marketing projects, campaign highlights and client results.</p>
+<div class="project-grid">
+<article class="project"><small>01 · Local Search</small><h3>Local SEO Projects</h3><p>Add a client project or case study here</p></article>
+<article class="project"><small>02 · Business Profile</small><h3>Google Business Profile</h3><p>Add profile optimization examples here</p></article>
+<article class="project"><small>03 · Digital Campaigns</small><h3>Marketing Campaigns</h3><p>Add campaign visuals and outcomes here</p></article>
+</div><p class="project-note">These are editable portfolio placeholders. Replace them with real projects and verified results.</p>
+</div></section>
+<section class="container" id="process"><div class="section-label">My approach</div><h2 class="section-title">Simple, focused, measurable.</h2><p class="section-intro">A clear process helps keep the work aligned with your business goals.</p>
+<div class="process-grid"><div class="step"><b>01 / DISCOVER</b><h3>Understand</h3><p>Learn about your business, audience, goals and current online presence.</p></div><div class="step"><b>02 / PLAN</b><h3>Build a strategy</h3><p>Choose the right priorities and create a practical action plan.</p></div><div class="step"><b>03 / REFINE</b><h3>Improve over time</h3><p>Review performance and use insights to make thoughtful improvements.</p></div></div>
+</section>
+<section class="contact" id="contact"><div class="container contact-grid">
+<div class="contact-copy"><div class="section-label">Get in touch</div><h2 class="section-title">Let's talk about your next step.</h2><p>Have a project in mind or want to improve your local visibility? Send a message and let's start a conversation.</p>
+<div class="contact-details"><div class="detail"><small>Email</small>your-email@example.com</div><div class="detail"><small>WhatsApp</small>+880 1XXX-XXXXXX</div><div class="detail"><small>Based in</small>Bangladesh · Open to remote projects</div></div></div>
+<form class="form" action="mailto:your-email@example.com" method="post" enctype="text/plain"><input name="name" placeholder="Your name" required><input type="email" name="email" placeholder="Your email" required><input name="subject" placeholder="Project or service you're interested in"><textarea name="message" placeholder="Tell me about your project..." required></textarea><button class="btn primary" type="submit">Send Message ↗</button><div class="form-note">Update the placeholder email and WhatsApp number before publishing. The form uses your email app.</div></form>
+</div></section>
+</main>
+<footer><div class="container footer-inner"><span>© <span id="year">2026</span> Tamanna. All rights reserved.</span><span>Digital Marketer · Local SEO Expert</span></div></footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();document.querySelectorAll('.links a').forEach(a=>a.addEventListener('click',()=>document.getElementById('links').classList.remove('open')));</script>
+</body></html>
